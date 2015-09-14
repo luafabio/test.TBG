@@ -13,7 +13,7 @@
    		</script>
 	</head>
 	<body>
-		<h1>Pregunta 1</h1>
+		<h2>Pregunta ${questionInstance.numQuestion }</h2>
 		<div id="show-question" class="content scaffold-show div-question1" role="main">
 			<g:if test="${flash.message}">
 			<div class="message" role="status">${flash.message}</div>
@@ -46,5 +46,5 @@
 			
 			</ol>
 		</div>
-	
+	<h1>${questionInstance.numQuestion }/5</h1>
 </html>
